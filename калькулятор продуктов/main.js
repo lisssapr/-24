@@ -1,11 +1,11 @@
-let name   = document.querySelector('#name');
+// let name   = document.querySelector('#name');
 // let price  = document.querySelector('#price');
 // let amount = document.querySelector('#amount');
 // let add    = document.querySelector('#add');
 // let table  = document.querySelector('#table');
 // let total  = document.querySelector('#total');
 
-// function createCell(tr, value, name) {
+//   function createCell(tr, value, name) {
 //   let td = document.createElement('td');
 //   td.textContent = value;
 //   td.classList.add(name);
@@ -45,12 +45,8 @@ let name   = document.querySelector('#name');
 //           let row = td.parentElement;
 //           let price = parseFloat(row.querySelector('.price').textContent);
 //           let amount = parseFloat(row.querySelector('.amount').textContent);
-//           let cost = price * amount;
-
-          
+//           let cost = price * amount;   
 //           row.querySelector('.cost').textContent = cost;
-
-          
 //           recountTotal();
 //         }
 //       }
@@ -64,14 +60,10 @@ let name   = document.querySelector('#name');
 //   let nameCell = createCell(tr, name.value, 'name');
 //   let priceCell = createCell(tr, price.value, 'price');
 //   let amountCell = createCell(tr, amount.value, 'amount');
-
 //   createCell(tr, price.value * amount.value, 'cost');
-
 //   let removeCell = createCell(tr, 'удалить', 'remove');
 //   removeCell.addEventListener('click', function() {
-    
 //     tr.remove();
-    
 //     recountTotal();
 //   });
 
